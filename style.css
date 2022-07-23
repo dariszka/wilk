@@ -1,4 +1,9 @@
 body {
     background-image: url("background.jpg");
     background-color: #cccccc;
-   }
+}
+
+html {
+    height: 100%;
+    cursor:url('kursor.webp'), auto;
+}
