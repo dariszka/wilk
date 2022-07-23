@@ -15,13 +15,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    color: rgb(108, 0, 0);
+    font-family: 'werewolf';
 }
 
 div {
-    color: rgb(108, 0, 0);
     font-size: 45px;
-    font-family: 'werewolf';
     text-align: center;
 }
 
