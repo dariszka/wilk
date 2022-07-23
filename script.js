@@ -4,7 +4,7 @@ let backspace = new Audio('/sounds/backspace.wav')
 let d = new Audio('/sounds/d.wav')
 let enter = new Audio('/sounds/enter.wav')
 let space = new Audio('/sounds/space.wav')
-let tab = new Audio('/sounds/tab.wav')
+let tab = new Audio('/sounds/tab.mp3')
 
 document.body.onkeydown = (e) => {
     if((e.keyCode === 54)||(e.keyCode === 57)){
