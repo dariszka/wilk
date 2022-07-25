@@ -1,10 +1,10 @@
-let sixnine = new Audio('/sounds/69.wav')
-let ania = new Audio('/sounds/a.wav')
-let backspace = new Audio('/sounds/backspace.wav')
-let d = new Audio('/sounds/d.wav')
-let enter = new Audio('/sounds/enter.wav')
-let space = new Audio('/sounds/space.wav')
-let tab = new Audio('/sounds/tab.mp3')
+let sixnine = new Audio('69.wav')
+let ania = new Audio('a.wav')
+let backspace = new Audio('backspace.wav')
+let d = new Audio('d.wav')
+let enter = new Audio('enter.wav')
+let space = new Audio('space.wav')
+let tab = new Audio('tab.mp3')
 
 document.body.onkeydown = (e) => {
     if((e.keyCode === 54)||(e.keyCode === 57)){

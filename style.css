@@ -9,22 +9,42 @@ html {
 }
 
 body {
-    height: inherit;
+    height: 100%;
     background-image: url("background.jpg");
     background-color: #cccccc;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(108, 0, 0);
+    flex-direction: column;
+    color: rgb(173, 0, 0);
     font-family: 'werewolf';
+    margin: 0%;
 }
 
-div {
+.text {
     font-size: 45px;
     text-align: center;
+    margin: auto;
 }
 
 body ::selection {
-    background-color:rgb(108, 0, 0);
-    color: rgb(25, 25, 25);
+    background-color: rgb(173, 0, 0);
+    color: rgb(58, 3, 3);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(173, 0, 0);
+}
+
+.footer {
+    width: 100vw;
+    height: 3vw;
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 20px;
+    background-image: url("footer.jpg");
+    background-blend-mode:hard-light;
+    background-color: rgb(102, 15, 15);
+    background-position: 10vh 25vh;
 }
