@@ -40,7 +40,7 @@ a {
     width: 100vw;
     height: 3vw;
     display: flex;
-    padding-top: 5px;
+    padding-top: 0.5vw;
     align-items: center;
     justify-content:space-around;
     font-size: 1vw;
