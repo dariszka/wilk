@@ -20,9 +20,10 @@ body {
 }
 
 .text {
-    font-size: 45px;
+    font-size: 2.5vw;
     text-align: center;
     margin: auto;
+    padding: 1vw;
 }
 
 body ::selection {
@@ -42,9 +43,10 @@ a {
     padding-top: 5px;
     align-items: center;
     justify-content:space-around;
-    font-size: 20px;
+    font-size: 1vw;
     background-image: url("footer.jpg");
     background-blend-mode:hard-light;
     background-color: rgb(102, 15, 15);
     background-position: 10vh 25vh;
+    background-size: 30%;
 }
